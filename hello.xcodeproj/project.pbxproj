@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BA4586370D32858C357293D /* Pods_hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E0661AE2B8C1E69AC41362 /* Pods_hello.framework */; };
+		A3EAA940229E76A10022B817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA93F229E76A10022B817 /* AppDelegate.swift */; };
+		A3EAA942229E76A10022B817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA941229E76A10022B817 /* ViewController.swift */; };
+		A3EAA945229E76A10022B817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EAA943229E76A10022B817 /* Main.storyboard */; };
+		A3EAA947229E76A10022B817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EAA946229E76A10022B817 /* Assets.xcassets */; };
+		A3EAA94A229E76A10022B817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EAA948229E76A10022B817 /* LaunchScreen.storyboard */; };
+		A3EAA955229E76A20022B817 /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA954229E76A20022B817 /* helloUITests.swift */; };
+		A3EAA99E229E76DD0022B817 /* CBPeripheral+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA964229E76DC0022B817 /* CBPeripheral+Info.m */; };
+		A3EAA99F229E76DD0022B817 /* CSRAppStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA966229E76DC0022B817 /* CSRAppStateManager.m */; };
+		A3EAA9A0229E76DD0022B817 /* CSRAreaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA968229E76DC0022B817 /* CSRAreaEntity.m */; };
+		A3EAA9A1229E76DD0022B817 /* CSRBluetoothLE.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA96A229E76DC0022B817 /* CSRBluetoothLE.m */; };
+		A3EAA9A2229E76DD0022B817 /* CSRBridgeRoaming.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA96C229E76DC0022B817 /* CSRBridgeRoaming.m */; };
+		A3EAA9A3229E76DD0022B817 /* CSRControllerEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA96F229E76DC0022B817 /* CSRControllerEntity+CoreDataProperties.m */; };
+		A3EAA9A4229E76DD0022B817 /* CSRControllerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA971229E76DC0022B817 /* CSRControllerEntity.m */; };
+		A3EAA9A5229E76DD0022B817 /* CSRDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA973229E76DC0022B817 /* CSRDatabaseManager.m */; };
+		A3EAA9A6229E76DD0022B817 /* CSRDeviceEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA975229E76DC0022B817 /* CSRDeviceEntity.m */; };
+		A3EAA9A7229E76DD0022B817 /* CSRDeviceEventsEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA977229E76DC0022B817 /* CSRDeviceEventsEntity+CoreDataProperties.m */; };
+		A3EAA9A8229E76DD0022B817 /* CSRDeviceEventsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA979229E76DC0022B817 /* CSRDeviceEventsEntity.m */; };
+		A3EAA9A9229E76DD0022B817 /* CSRDevicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA97B229E76DC0022B817 /* CSRDevicesManager.m */; };
+		A3EAA9AA229E76DD0022B817 /* CSREventEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA97D229E76DC0022B817 /* CSREventEntity+CoreDataProperties.m */; };
+		A3EAA9AB229E76DD0022B817 /* CSREventEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA97F229E76DC0022B817 /* CSREventEntity.m */; };
+		A3EAA9AC229E76DD0022B817 /* CSRGatewayEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA981229E76DC0022B817 /* CSRGatewayEntity+CoreDataProperties.m */; };
+		A3EAA9AD229E76DD0022B817 /* CSRGatewayEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA983229E76DC0022B817 /* CSRGatewayEntity.m */; };
+		A3EAA9AE229E76DD0022B817 /* CSRmesh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA984229E76DC0022B817 /* CSRmesh.xcdatamodeld */; };
+		A3EAA9AF229E76DD0022B817 /* CSRmeshArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA987229E76DC0022B817 /* CSRmeshArea.m */; };
+		A3EAA9B0229E76DD0022B817 /* CSRmeshDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA989229E76DC0022B817 /* CSRmeshDevice.m */; };
+		A3EAA9B1229E76DD0022B817 /* CSRmeshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA98B229E76DD0022B817 /* CSRmeshManager.m */; };
+		A3EAA9B2229E76DD0022B817 /* CSRmeshSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA98D229E76DD0022B817 /* CSRmeshSettings.m */; };
+		A3EAA9B3229E76DD0022B817 /* CSRMeshUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA98F229E76DD0022B817 /* CSRMeshUtilities.m */; };
+		A3EAA9B4229E76DD0022B817 /* CSRPlaceEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA991229E76DD0022B817 /* CSRPlaceEntity+CoreDataProperties.m */; };
+		A3EAA9B5229E76DD0022B817 /* CSRPlaceEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA993229E76DD0022B817 /* CSRPlaceEntity.m */; };
+		A3EAA9B6229E76DD0022B817 /* CSRSettingsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA995229E76DD0022B817 /* CSRSettingsEntity.m */; };
+		A3EAA9B7229E76DD0022B817 /* CSRUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA997229E76DD0022B817 /* CSRUserEntity.m */; };
+		A3EAA9B8229E76DD0022B817 /* CSRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA999229E76DD0022B817 /* CSRUtilities.m */; };
+		A3EAA9B9229E76DD0022B817 /* CSRWatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA99B229E76DD0022B817 /* CSRWatchManager.m */; };
+		A3EAA9F5229E77010022B817 /* CSRDeviceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9BB229E76FD0022B817 /* CSRDeviceEntity.swift */; };
+		A3EAA9F6229E77010022B817 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9BC229E76FD0022B817 /* Device.swift */; };
+		A3EAA9F7229E77010022B817 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9BD229E76FD0022B817 /* Notification.swift */; };
+		A3EAA9F8229E77010022B817 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9BE229E76FD0022B817 /* Parser.swift */; };
+		A3EAA9F9229E77010022B817 /* PowerCuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9BF229E76FD0022B817 /* PowerCuts.swift */; };
+		A3EAA9FA229E77010022B817 /* SwitchBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9C0229E76FD0022B817 /* SwitchBoard.swift */; };
+		A3EAA9FB229E77010022B817 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9C1229E76FD0022B817 /* User.swift */; };
+		A3EAA9FC229E77010022B817 /* Zelio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9C2229E76FD0022B817 /* Zelio.swift */; };
+		A3EAA9FD229E77010022B817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EAA9C4229E77000022B817 /* Assets.xcassets */; };
+		A3EAA9FE229E77010022B817 /* cartfile in Resources */ = {isa = PBXBuildFile; fileRef = A3EAA9C6229E77000022B817 /* cartfile */; };
+		A3EAA9FF229E77010022B817 /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = A3EAA9C7229E77000022B817 /* Cartfile.resolved */; };
+		A3EAAA00229E77010022B817 /* csr_mesh_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9C8229E77000022B817 /* csr_mesh_crypto.c */; };
+		A3EAAA01229E77010022B817 /* CSRmesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EAA9CA229E77000022B817 /* CSRmesh.framework */; };
+		A3EAAA02229E77010022B817 /* CSRmeshRestClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EAA9CB229E77000022B817 /* CSRmeshRestClient.framework */; };
+		A3EAAA03229E77010022B817 /* PhassPhraseUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9CC229E77000022B817 /* PhassPhraseUtil.swift */; };
+		A3EAAA04229E77010022B817 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9CE229E77000022B817 /* BluetoothManager.swift */; };
+		A3EAAA05229E77010022B817 /* BridgeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9CF229E77000022B817 /* BridgeStatus.swift */; };
+		A3EAAA06229E77010022B817 /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9D0229E77000022B817 /* NetworkUtility.swift */; };
+		A3EAAA07229E77010022B817 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9D1229E77000022B817 /* Reachability.swift */; };
+		A3EAAA08229E77010022B817 /* ServiceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9D2229E77000022B817 /* ServiceUtility.swift */; };
+		A3EAAA09229E77010022B817 /* UserProfileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9D3229E77000022B817 /* UserProfileUtility.swift */; };
+		A3EAAA16229E77010022B817 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9E3229E77000022B817 /* BLEManager.swift */; };
+		A3EAAA17229E77010022B817 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9E4229E77000022B817 /* Constants.swift */; };
+		A3EAAA18229E77010022B817 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9E5229E77000022B817 /* Helper.swift */; };
+		A3EAAA1A229E77010022B817 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9E7229E77000022B817 /* ProgressView.swift */; };
+		A3EAAA1B229E77010022B817 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9E9229E77000022B817 /* QRCodeReader.swift */; };
+		A3EAAA1C229E77010022B817 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9EA229E77000022B817 /* QRCodeReaderResult.swift */; };
+		A3EAAA1D229E77010022B817 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9EB229E77000022B817 /* QRCodeReaderView.swift */; };
+		A3EAAA1E229E77010022B817 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9EC229E77000022B817 /* QRCodeReaderViewContainer.swift */; };
+		A3EAAA1F229E77010022B817 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9ED229E77000022B817 /* QRCodeReaderViewController.swift */; };
+		A3EAAA20229E77010022B817 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9EE229E77000022B817 /* QRCodeReaderViewControllerBuilder.swift */; };
+		A3EAAA21229E77010022B817 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9EF229E77000022B817 /* QRCodeReaderViewControllerDelegate.swift */; };
+		A3EAAA22229E77010022B817 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9F0229E77000022B817 /* ReaderOverlayView.swift */; };
+		A3EAAA23229E77010022B817 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9F1229E77000022B817 /* SwitchCameraButton.swift */; };
+		A3EAAA24229E77010022B817 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9F2229E77000022B817 /* ToggleTorchButton.swift */; };
+		A3EAAA25229E77010022B817 /* ExtensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAA9F4229E77000022B817 /* ExtensionClass.swift */; };
+		A3EAAA2E229E78890022B817 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA29229E78890022B817 /* CacheManager.swift */; };
+		A3EAAA2F229E78890022B817 /* FileAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA2A229E78890022B817 /* FileAccessor.swift */; };
+		A3EAAA30229E78890022B817 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA2B229E78890022B817 /* MulticastDelegate.swift */; };
+		A3EAAA31229E78890022B817 /* NWCacheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA2C229E78890022B817 /* NWCacheStore.swift */; };
+		A3EAAA32229E78890022B817 /* PlaceDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA2D229E78890022B817 /* PlaceDataHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3EAA951229E76A20022B817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EAA934229E76A10022B817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EAA93B229E76A10022B817;
+			remoteInfo = hello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A0DAB25E2AA7F755B27E405 /* Pods-hello.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello.release.xcconfig"; path = "Target Support Files/Pods-hello/Pods-hello.release.xcconfig"; sourceTree = "<group>"; };
+		74073CA7360EFEEF6D09D99E /* Pods-hello.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello.debug.xcconfig"; path = "Target Support Files/Pods-hello/Pods-hello.debug.xcconfig"; sourceTree = "<group>"; };
+		A3EAA93C229E76A10022B817 /* hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EAA93F229E76A10022B817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3EAA941229E76A10022B817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3EAA944229E76A10022B817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3EAA946229E76A10022B817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3EAA949229E76A10022B817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3EAA94B229E76A10022B817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EAA950229E76A20022B817 /* helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EAA954229E76A20022B817 /* helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITests.swift; sourceTree = "<group>"; };
+		A3EAA956229E76A20022B817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EAA95F229E76AE0022B817 /* hello-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3EAA963229E76DC0022B817 /* CBPeripheral+Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+Info.h"; sourceTree = "<group>"; };
+		A3EAA964229E76DC0022B817 /* CBPeripheral+Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+Info.m"; sourceTree = "<group>"; };
+		A3EAA965229E76DC0022B817 /* CSRAppStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRAppStateManager.h; sourceTree = "<group>"; };
+		A3EAA966229E76DC0022B817 /* CSRAppStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRAppStateManager.m; sourceTree = "<group>"; };
+		A3EAA967229E76DC0022B817 /* CSRAreaEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRAreaEntity.h; sourceTree = "<group>"; };
+		A3EAA968229E76DC0022B817 /* CSRAreaEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRAreaEntity.m; sourceTree = "<group>"; };
+		A3EAA969229E76DC0022B817 /* CSRBluetoothLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRBluetoothLE.h; sourceTree = "<group>"; };
+		A3EAA96A229E76DC0022B817 /* CSRBluetoothLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRBluetoothLE.m; sourceTree = "<group>"; };
+		A3EAA96B229E76DC0022B817 /* CSRBridgeRoaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRBridgeRoaming.h; sourceTree = "<group>"; };
+		A3EAA96C229E76DC0022B817 /* CSRBridgeRoaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRBridgeRoaming.m; sourceTree = "<group>"; };
+		A3EAA96D229E76DC0022B817 /* CSRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRConstants.h; sourceTree = "<group>"; };
+		A3EAA96E229E76DC0022B817 /* CSRControllerEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSRControllerEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3EAA96F229E76DC0022B817 /* CSRControllerEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CSRControllerEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3EAA970229E76DC0022B817 /* CSRControllerEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRControllerEntity.h; sourceTree = "<group>"; };
+		A3EAA971229E76DC0022B817 /* CSRControllerEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRControllerEntity.m; sourceTree = "<group>"; };
+		A3EAA972229E76DC0022B817 /* CSRDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRDatabaseManager.h; sourceTree = "<group>"; };
+		A3EAA973229E76DC0022B817 /* CSRDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRDatabaseManager.m; sourceTree = "<group>"; };
+		A3EAA974229E76DC0022B817 /* CSRDeviceEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRDeviceEntity.h; sourceTree = "<group>"; };
+		A3EAA975229E76DC0022B817 /* CSRDeviceEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRDeviceEntity.m; sourceTree = "<group>"; };
+		A3EAA976229E76DC0022B817 /* CSRDeviceEventsEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSRDeviceEventsEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3EAA977229E76DC0022B817 /* CSRDeviceEventsEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CSRDeviceEventsEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3EAA978229E76DC0022B817 /* CSRDeviceEventsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRDeviceEventsEntity.h; sourceTree = "<group>"; };
+		A3EAA979229E76DC0022B817 /* CSRDeviceEventsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRDeviceEventsEntity.m; sourceTree = "<group>"; };
+		A3EAA97A229E76DC0022B817 /* CSRDevicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRDevicesManager.h; sourceTree = "<group>"; };
+		A3EAA97B229E76DC0022B817 /* CSRDevicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRDevicesManager.m; sourceTree = "<group>"; };
+		A3EAA97C229E76DC0022B817 /* CSREventEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSREventEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3EAA97D229E76DC0022B817 /* CSREventEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CSREventEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3EAA97E229E76DC0022B817 /* CSREventEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSREventEntity.h; sourceTree = "<group>"; };
+		A3EAA97F229E76DC0022B817 /* CSREventEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSREventEntity.m; sourceTree = "<group>"; };
+		A3EAA980229E76DC0022B817 /* CSRGatewayEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSRGatewayEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3EAA981229E76DC0022B817 /* CSRGatewayEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CSRGatewayEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3EAA982229E76DC0022B817 /* CSRGatewayEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRGatewayEntity.h; sourceTree = "<group>"; };
+		A3EAA983229E76DC0022B817 /* CSRGatewayEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRGatewayEntity.m; sourceTree = "<group>"; };
+		A3EAA985229E76DC0022B817 /* CSRmesh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSRmesh.xcdatamodel; sourceTree = "<group>"; };
+		A3EAA986229E76DC0022B817 /* CSRmeshArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRmeshArea.h; sourceTree = "<group>"; };
+		A3EAA987229E76DC0022B817 /* CSRmeshArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRmeshArea.m; sourceTree = "<group>"; };
+		A3EAA988229E76DC0022B817 /* CSRmeshDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRmeshDevice.h; sourceTree = "<group>"; };
+		A3EAA989229E76DC0022B817 /* CSRmeshDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRmeshDevice.m; sourceTree = "<group>"; };
+		A3EAA98A229E76DC0022B817 /* CSRmeshManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRmeshManager.h; sourceTree = "<group>"; };
+		A3EAA98B229E76DD0022B817 /* CSRmeshManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRmeshManager.m; sourceTree = "<group>"; };
+		A3EAA98C229E76DD0022B817 /* CSRmeshSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRmeshSettings.h; sourceTree = "<group>"; };
+		A3EAA98D229E76DD0022B817 /* CSRmeshSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRmeshSettings.m; sourceTree = "<group>"; };
+		A3EAA98E229E76DD0022B817 /* CSRMeshUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRMeshUtilities.h; sourceTree = "<group>"; };
+		A3EAA98F229E76DD0022B817 /* CSRMeshUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRMeshUtilities.m; sourceTree = "<group>"; };
+		A3EAA990229E76DD0022B817 /* CSRPlaceEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSRPlaceEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A3EAA991229E76DD0022B817 /* CSRPlaceEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CSRPlaceEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A3EAA992229E76DD0022B817 /* CSRPlaceEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRPlaceEntity.h; sourceTree = "<group>"; };
+		A3EAA993229E76DD0022B817 /* CSRPlaceEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRPlaceEntity.m; sourceTree = "<group>"; };
+		A3EAA994229E76DD0022B817 /* CSRSettingsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRSettingsEntity.h; sourceTree = "<group>"; };
+		A3EAA995229E76DD0022B817 /* CSRSettingsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRSettingsEntity.m; sourceTree = "<group>"; };
+		A3EAA996229E76DD0022B817 /* CSRUserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRUserEntity.h; sourceTree = "<group>"; };
+		A3EAA997229E76DD0022B817 /* CSRUserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRUserEntity.m; sourceTree = "<group>"; };
+		A3EAA998229E76DD0022B817 /* CSRUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRUtilities.h; sourceTree = "<group>"; };
+		A3EAA999229E76DD0022B817 /* CSRUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRUtilities.m; sourceTree = "<group>"; };
+		A3EAA99A229E76DD0022B817 /* CSRWatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRWatchManager.h; sourceTree = "<group>"; };
+		A3EAA99B229E76DD0022B817 /* CSRWatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRWatchManager.m; sourceTree = "<group>"; };
+		A3EAA99C229E76DD0022B817 /* WatchSharedConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchSharedConsts.h; sourceTree = "<group>"; };
+		A3EAA99D229E76DD0022B817 /* Zelio-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Zelio-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3EAA9BB229E76FD0022B817 /* CSRDeviceEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSRDeviceEntity.swift; sourceTree = "<group>"; };
+		A3EAA9BC229E76FD0022B817 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		A3EAA9BD229E76FD0022B817 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		A3EAA9BE229E76FD0022B817 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		A3EAA9BF229E76FD0022B817 /* PowerCuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerCuts.swift; sourceTree = "<group>"; };
+		A3EAA9C0229E76FD0022B817 /* SwitchBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchBoard.swift; sourceTree = "<group>"; };
+		A3EAA9C1229E76FD0022B817 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A3EAA9C2229E76FD0022B817 /* Zelio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zelio.swift; sourceTree = "<group>"; };
+		A3EAA9C4229E77000022B817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3EAA9C6229E77000022B817 /* cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cartfile; sourceTree = "<group>"; };
+		A3EAA9C7229E77000022B817 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		A3EAA9C8229E77000022B817 /* csr_mesh_crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = csr_mesh_crypto.c; sourceTree = "<group>"; };
+		A3EAA9C9229E77000022B817 /* csr_mesh_crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csr_mesh_crypto.h; sourceTree = "<group>"; };
+		A3EAA9CA229E77000022B817 /* CSRmesh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSRmesh.framework; sourceTree = "<group>"; };
+		A3EAA9CB229E77000022B817 /* CSRmeshRestClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSRmeshRestClient.framework; sourceTree = "<group>"; };
+		A3EAA9CC229E77000022B817 /* PhassPhraseUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhassPhraseUtil.swift; sourceTree = "<group>"; };
+		A3EAA9CE229E77000022B817 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		A3EAA9CF229E77000022B817 /* BridgeStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeStatus.swift; sourceTree = "<group>"; };
+		A3EAA9D0229E77000022B817 /* NetworkUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
+		A3EAA9D1229E77000022B817 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A3EAA9D2229E77000022B817 /* ServiceUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceUtility.swift; sourceTree = "<group>"; };
+		A3EAA9D3229E77000022B817 /* UserProfileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileUtility.swift; sourceTree = "<group>"; };
+		A3EAA9E3229E77000022B817 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		A3EAA9E4229E77000022B817 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3EAA9E5229E77000022B817 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A3EAA9E7229E77000022B817 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		A3EAA9E9229E77000022B817 /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
+		A3EAA9EA229E77000022B817 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		A3EAA9EB229E77000022B817 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderView.swift; sourceTree = "<group>"; };
+		A3EAA9EC229E77000022B817 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		A3EAA9ED229E77000022B817 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		A3EAA9EE229E77000022B817 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		A3EAA9EF229E77000022B817 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		A3EAA9F0229E77000022B817 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderOverlayView.swift; sourceTree = "<group>"; };
+		A3EAA9F1229E77000022B817 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
+		A3EAA9F2229E77000022B817 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleTorchButton.swift; sourceTree = "<group>"; };
+		A3EAA9F4229E77000022B817 /* ExtensionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionClass.swift; sourceTree = "<group>"; };
+		A3EAAA29229E78890022B817 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		A3EAAA2A229E78890022B817 /* FileAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAccessor.swift; sourceTree = "<group>"; };
+		A3EAAA2B229E78890022B817 /* MulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		A3EAAA2C229E78890022B817 /* NWCacheStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWCacheStore.swift; sourceTree = "<group>"; };
+		A3EAAA2D229E78890022B817 /* PlaceDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDataHelper.swift; sourceTree = "<group>"; };
+		B9E0661AE2B8C1E69AC41362 /* Pods_hello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3EAA939229E76A10022B817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAAA01229E77010022B817 /* CSRmesh.framework in Frameworks */,
+				A3EAAA02229E77010022B817 /* CSRmeshRestClient.framework in Frameworks */,
+				7BA4586370D32858C357293D /* Pods_hello.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EAA94D229E76A20022B817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FD60266C64F69218B34D050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74073CA7360EFEEF6D09D99E /* Pods-hello.debug.xcconfig */,
+				3A0DAB25E2AA7F755B27E405 /* Pods-hello.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3EAA933229E76A10022B817 = {
+			isa = PBXGroup;
+			children = (
+				A3EAA93E229E76A10022B817 /* hello */,
+				A3EAA953229E76A20022B817 /* helloUITests */,
+				A3EAA93D229E76A10022B817 /* Products */,
+				9FD60266C64F69218B34D050 /* Pods */,
+				B597D9A53427C82E024CBAFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3EAA93D229E76A10022B817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA93C229E76A10022B817 /* hello.app */,
+				A3EAA950229E76A20022B817 /* helloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EAA93E229E76A10022B817 /* hello */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAAA28229E78890022B817 /* Database */,
+				A3EAA9F3229E77000022B817 /* ExtensionClasses */,
+				A3EAA9D4229E77000022B817 /* HelperClass */,
+				A3EAA9BA229E76FD0022B817 /* ModelClasses */,
+				A3EAA9C3229E77000022B817 /* SupportingFiles */,
+				A3EAA9CD229E77000022B817 /* Utility */,
+				A3EAA962229E76DC0022B817 /* BLESupport */,
+				A3EAA93F229E76A10022B817 /* AppDelegate.swift */,
+				A3EAA941229E76A10022B817 /* ViewController.swift */,
+				A3EAA943229E76A10022B817 /* Main.storyboard */,
+				A3EAA946229E76A10022B817 /* Assets.xcassets */,
+				A3EAA948229E76A10022B817 /* LaunchScreen.storyboard */,
+				A3EAA94B229E76A10022B817 /* Info.plist */,
+				A3EAA95F229E76AE0022B817 /* hello-Bridging-Header.h */,
+			);
+			path = hello;
+			sourceTree = "<group>";
+		};
+		A3EAA953229E76A20022B817 /* helloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA954229E76A20022B817 /* helloUITests.swift */,
+				A3EAA956229E76A20022B817 /* Info.plist */,
+			);
+			path = helloUITests;
+			sourceTree = "<group>";
+		};
+		A3EAA962229E76DC0022B817 /* BLESupport */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA963229E76DC0022B817 /* CBPeripheral+Info.h */,
+				A3EAA964229E76DC0022B817 /* CBPeripheral+Info.m */,
+				A3EAA965229E76DC0022B817 /* CSRAppStateManager.h */,
+				A3EAA966229E76DC0022B817 /* CSRAppStateManager.m */,
+				A3EAA967229E76DC0022B817 /* CSRAreaEntity.h */,
+				A3EAA968229E76DC0022B817 /* CSRAreaEntity.m */,
+				A3EAA969229E76DC0022B817 /* CSRBluetoothLE.h */,
+				A3EAA96A229E76DC0022B817 /* CSRBluetoothLE.m */,
+				A3EAA96B229E76DC0022B817 /* CSRBridgeRoaming.h */,
+				A3EAA96C229E76DC0022B817 /* CSRBridgeRoaming.m */,
+				A3EAA96D229E76DC0022B817 /* CSRConstants.h */,
+				A3EAA96E229E76DC0022B817 /* CSRControllerEntity+CoreDataProperties.h */,
+				A3EAA96F229E76DC0022B817 /* CSRControllerEntity+CoreDataProperties.m */,
+				A3EAA970229E76DC0022B817 /* CSRControllerEntity.h */,
+				A3EAA971229E76DC0022B817 /* CSRControllerEntity.m */,
+				A3EAA972229E76DC0022B817 /* CSRDatabaseManager.h */,
+				A3EAA973229E76DC0022B817 /* CSRDatabaseManager.m */,
+				A3EAA974229E76DC0022B817 /* CSRDeviceEntity.h */,
+				A3EAA975229E76DC0022B817 /* CSRDeviceEntity.m */,
+				A3EAA976229E76DC0022B817 /* CSRDeviceEventsEntity+CoreDataProperties.h */,
+				A3EAA977229E76DC0022B817 /* CSRDeviceEventsEntity+CoreDataProperties.m */,
+				A3EAA978229E76DC0022B817 /* CSRDeviceEventsEntity.h */,
+				A3EAA979229E76DC0022B817 /* CSRDeviceEventsEntity.m */,
+				A3EAA97A229E76DC0022B817 /* CSRDevicesManager.h */,
+				A3EAA97B229E76DC0022B817 /* CSRDevicesManager.m */,
+				A3EAA97C229E76DC0022B817 /* CSREventEntity+CoreDataProperties.h */,
+				A3EAA97D229E76DC0022B817 /* CSREventEntity+CoreDataProperties.m */,
+				A3EAA97E229E76DC0022B817 /* CSREventEntity.h */,
+				A3EAA97F229E76DC0022B817 /* CSREventEntity.m */,
+				A3EAA980229E76DC0022B817 /* CSRGatewayEntity+CoreDataProperties.h */,
+				A3EAA981229E76DC0022B817 /* CSRGatewayEntity+CoreDataProperties.m */,
+				A3EAA982229E76DC0022B817 /* CSRGatewayEntity.h */,
+				A3EAA983229E76DC0022B817 /* CSRGatewayEntity.m */,
+				A3EAA984229E76DC0022B817 /* CSRmesh.xcdatamodeld */,
+				A3EAA986229E76DC0022B817 /* CSRmeshArea.h */,
+				A3EAA987229E76DC0022B817 /* CSRmeshArea.m */,
+				A3EAA988229E76DC0022B817 /* CSRmeshDevice.h */,
+				A3EAA989229E76DC0022B817 /* CSRmeshDevice.m */,
+				A3EAA98A229E76DC0022B817 /* CSRmeshManager.h */,
+				A3EAA98B229E76DD0022B817 /* CSRmeshManager.m */,
+				A3EAA98C229E76DD0022B817 /* CSRmeshSettings.h */,
+				A3EAA98D229E76DD0022B817 /* CSRmeshSettings.m */,
+				A3EAA98E229E76DD0022B817 /* CSRMeshUtilities.h */,
+				A3EAA98F229E76DD0022B817 /* CSRMeshUtilities.m */,
+				A3EAA990229E76DD0022B817 /* CSRPlaceEntity+CoreDataProperties.h */,
+				A3EAA991229E76DD0022B817 /* CSRPlaceEntity+CoreDataProperties.m */,
+				A3EAA992229E76DD0022B817 /* CSRPlaceEntity.h */,
+				A3EAA993229E76DD0022B817 /* CSRPlaceEntity.m */,
+				A3EAA994229E76DD0022B817 /* CSRSettingsEntity.h */,
+				A3EAA995229E76DD0022B817 /* CSRSettingsEntity.m */,
+				A3EAA996229E76DD0022B817 /* CSRUserEntity.h */,
+				A3EAA997229E76DD0022B817 /* CSRUserEntity.m */,
+				A3EAA998229E76DD0022B817 /* CSRUtilities.h */,
+				A3EAA999229E76DD0022B817 /* CSRUtilities.m */,
+				A3EAA99A229E76DD0022B817 /* CSRWatchManager.h */,
+				A3EAA99B229E76DD0022B817 /* CSRWatchManager.m */,
+				A3EAA99C229E76DD0022B817 /* WatchSharedConsts.h */,
+				A3EAA99D229E76DD0022B817 /* Zelio-Bridging-Header.h */,
+			);
+			path = BLESupport;
+			sourceTree = "<group>";
+		};
+		A3EAA9BA229E76FD0022B817 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA9BB229E76FD0022B817 /* CSRDeviceEntity.swift */,
+				A3EAA9BC229E76FD0022B817 /* Device.swift */,
+				A3EAA9BD229E76FD0022B817 /* Notification.swift */,
+				A3EAA9BE229E76FD0022B817 /* Parser.swift */,
+				A3EAA9BF229E76FD0022B817 /* PowerCuts.swift */,
+				A3EAA9C0229E76FD0022B817 /* SwitchBoard.swift */,
+				A3EAA9C1229E76FD0022B817 /* User.swift */,
+				A3EAA9C2229E76FD0022B817 /* Zelio.swift */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		A3EAA9C3229E77000022B817 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA9C4229E77000022B817 /* Assets.xcassets */,
+				A3EAA9C5229E77000022B817 /* Frameworks */,
+				A3EAA9CC229E77000022B817 /* PhassPhraseUtil.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A3EAA9C5229E77000022B817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA9C6229E77000022B817 /* cartfile */,
+				A3EAA9C7229E77000022B817 /* Cartfile.resolved */,
+				A3EAA9C8229E77000022B817 /* csr_mesh_crypto.c */,
+				A3EAA9C9229E77000022B817 /* csr_mesh_crypto.h */,
+				A3EAA9CA229E77000022B817 /* CSRmesh.framework */,
+				A3EAA9CB229E77000022B817 /* CSRmeshRestClient.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3EAA9CD229E77000022B817 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA9CE229E77000022B817 /* BluetoothManager.swift */,
+				A3EAA9CF229E77000022B817 /* BridgeStatus.swift */,
+				A3EAA9D0229E77000022B817 /* NetworkUtility.swift */,
+				A3EAA9D1229E77000022B817 /* Reachability.swift */,
+				A3EAA9D2229E77000022B817 /* ServiceUtility.swift */,
+				A3EAA9D3229E77000022B817 /* UserProfileUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A3EAA9D4229E77000022B817 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA9E3229E77000022B817 /* BLEManager.swift */,
+				A3EAA9E4229E77000022B817 /* Constants.swift */,
+				A3EAA9E5229E77000022B817 /* Helper.swift */,
+				A3EAA9E7229E77000022B817 /* ProgressView.swift */,
+				A3EAA9E8229E77000022B817 /* Scanner */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		A3EAA9E8229E77000022B817 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA9E9229E77000022B817 /* QRCodeReader.swift */,
+				A3EAA9EA229E77000022B817 /* QRCodeReaderResult.swift */,
+				A3EAA9EB229E77000022B817 /* QRCodeReaderView.swift */,
+				A3EAA9EC229E77000022B817 /* QRCodeReaderViewContainer.swift */,
+				A3EAA9ED229E77000022B817 /* QRCodeReaderViewController.swift */,
+				A3EAA9EE229E77000022B817 /* QRCodeReaderViewControllerBuilder.swift */,
+				A3EAA9EF229E77000022B817 /* QRCodeReaderViewControllerDelegate.swift */,
+				A3EAA9F0229E77000022B817 /* ReaderOverlayView.swift */,
+				A3EAA9F1229E77000022B817 /* SwitchCameraButton.swift */,
+				A3EAA9F2229E77000022B817 /* ToggleTorchButton.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		A3EAA9F3229E77000022B817 /* ExtensionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAA9F4229E77000022B817 /* ExtensionClass.swift */,
+			);
+			path = ExtensionClasses;
+			sourceTree = "<group>";
+		};
+		A3EAAA28229E78890022B817 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAAA29229E78890022B817 /* CacheManager.swift */,
+				A3EAAA2A229E78890022B817 /* FileAccessor.swift */,
+				A3EAAA2B229E78890022B817 /* MulticastDelegate.swift */,
+				A3EAAA2C229E78890022B817 /* NWCacheStore.swift */,
+				A3EAAA2D229E78890022B817 /* PlaceDataHelper.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		B597D9A53427C82E024CBAFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9E0661AE2B8C1E69AC41362 /* Pods_hello.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3EAA93B229E76A10022B817 /* hello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EAA959229E76A20022B817 /* Build configuration list for PBXNativeTarget "hello" */;
+			buildPhases = (
+				1AFAB625410A964195BBF042 /* [CP] Check Pods Manifest.lock */,
+				A3EAA938229E76A10022B817 /* Sources */,
+				A3EAA939229E76A10022B817 /* Frameworks */,
+				A3EAA93A229E76A10022B817 /* Resources */,
+				AB766DBB58C81A67E7D40CCD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello;
+			productName = hello;
+			productReference = A3EAA93C229E76A10022B817 /* hello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3EAA94F229E76A20022B817 /* helloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EAA95C229E76A20022B817 /* Build configuration list for PBXNativeTarget "helloUITests" */;
+			buildPhases = (
+				A3EAA94C229E76A20022B817 /* Sources */,
+				A3EAA94D229E76A20022B817 /* Frameworks */,
+				A3EAA94E229E76A20022B817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EAA952229E76A20022B817 /* PBXTargetDependency */,
+			);
+			name = helloUITests;
+			productName = helloUITests;
+			productReference = A3EAA950229E76A20022B817 /* helloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3EAA934229E76A10022B817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Himanshu Singh";
+				TargetAttributes = {
+					A3EAA93B229E76A10022B817 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					A3EAA94F229E76A20022B817 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A3EAA93B229E76A10022B817;
+					};
+				};
+			};
+			buildConfigurationList = A3EAA937229E76A10022B817 /* Build configuration list for PBXProject "hello" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3EAA933229E76A10022B817;
+			productRefGroup = A3EAA93D229E76A10022B817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3EAA93B229E76A10022B817 /* hello */,
+				A3EAA94F229E76A20022B817 /* helloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EAA93A229E76A10022B817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAA94A229E76A10022B817 /* LaunchScreen.storyboard in Resources */,
+				A3EAA9FF229E77010022B817 /* Cartfile.resolved in Resources */,
+				A3EAA947229E76A10022B817 /* Assets.xcassets in Resources */,
+				A3EAA9FD229E77010022B817 /* Assets.xcassets in Resources */,
+				A3EAA945229E76A10022B817 /* Main.storyboard in Resources */,
+				A3EAA9FE229E77010022B817 /* cartfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EAA94E229E76A20022B817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AFAB625410A964195BBF042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hello-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB766DBB58C81A67E7D40CCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hello/Pods-hello-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/REFrostedViewController/REFrostedViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ZipArchive/ZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/sqlite3/sqlite3.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/REFrostedViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlite3.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hello/Pods-hello-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3EAA938229E76A10022B817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAA9AD229E76DD0022B817 /* CSRGatewayEntity.m in Sources */,
+				A3EAAA1E229E77010022B817 /* QRCodeReaderViewContainer.swift in Sources */,
+				A3EAAA1F229E77010022B817 /* QRCodeReaderViewController.swift in Sources */,
+				A3EAA9AA229E76DD0022B817 /* CSREventEntity+CoreDataProperties.m in Sources */,
+				A3EAA9AF229E76DD0022B817 /* CSRmeshArea.m in Sources */,
+				A3EAA9A1229E76DD0022B817 /* CSRBluetoothLE.m in Sources */,
+				A3EAAA2F229E78890022B817 /* FileAccessor.swift in Sources */,
+				A3EAA9AB229E76DD0022B817 /* CSREventEntity.m in Sources */,
+				A3EAA9B1229E76DD0022B817 /* CSRmeshManager.m in Sources */,
+				A3EAA9B4229E76DD0022B817 /* CSRPlaceEntity+CoreDataProperties.m in Sources */,
+				A3EAA9B3229E76DD0022B817 /* CSRMeshUtilities.m in Sources */,
+				A3EAAA1C229E77010022B817 /* QRCodeReaderResult.swift in Sources */,
+				A3EAAA21229E77010022B817 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				A3EAA9F7229E77010022B817 /* Notification.swift in Sources */,
+				A3EAA9AC229E76DD0022B817 /* CSRGatewayEntity+CoreDataProperties.m in Sources */,
+				A3EAA9B5229E76DD0022B817 /* CSRPlaceEntity.m in Sources */,
+				A3EAAA04229E77010022B817 /* BluetoothManager.swift in Sources */,
+				A3EAA9A4229E76DD0022B817 /* CSRControllerEntity.m in Sources */,
+				A3EAA9B6229E76DD0022B817 /* CSRSettingsEntity.m in Sources */,
+				A3EAA9B0229E76DD0022B817 /* CSRmeshDevice.m in Sources */,
+				A3EAA99F229E76DD0022B817 /* CSRAppStateManager.m in Sources */,
+				A3EAA9A6229E76DD0022B817 /* CSRDeviceEntity.m in Sources */,
+				A3EAAA22229E77010022B817 /* ReaderOverlayView.swift in Sources */,
+				A3EAA9A2229E76DD0022B817 /* CSRBridgeRoaming.m in Sources */,
+				A3EAAA07229E77010022B817 /* Reachability.swift in Sources */,
+				A3EAA942229E76A10022B817 /* ViewController.swift in Sources */,
+				A3EAA9FA229E77010022B817 /* SwitchBoard.swift in Sources */,
+				A3EAAA08229E77010022B817 /* ServiceUtility.swift in Sources */,
+				A3EAAA1D229E77010022B817 /* QRCodeReaderView.swift in Sources */,
+				A3EAAA1B229E77010022B817 /* QRCodeReader.swift in Sources */,
+				A3EAAA25229E77010022B817 /* ExtensionClass.swift in Sources */,
+				A3EAAA00229E77010022B817 /* csr_mesh_crypto.c in Sources */,
+				A3EAAA09229E77010022B817 /* UserProfileUtility.swift in Sources */,
+				A3EAA9FC229E77010022B817 /* Zelio.swift in Sources */,
+				A3EAA9A7229E76DD0022B817 /* CSRDeviceEventsEntity+CoreDataProperties.m in Sources */,
+				A3EAA9A0229E76DD0022B817 /* CSRAreaEntity.m in Sources */,
+				A3EAAA17229E77010022B817 /* Constants.swift in Sources */,
+				A3EAA9AE229E76DD0022B817 /* CSRmesh.xcdatamodeld in Sources */,
+				A3EAAA24229E77010022B817 /* ToggleTorchButton.swift in Sources */,
+				A3EAA9B2229E76DD0022B817 /* CSRmeshSettings.m in Sources */,
+				A3EAAA30229E78890022B817 /* MulticastDelegate.swift in Sources */,
+				A3EAAA31229E78890022B817 /* NWCacheStore.swift in Sources */,
+				A3EAA9FB229E77010022B817 /* User.swift in Sources */,
+				A3EAAA06229E77010022B817 /* NetworkUtility.swift in Sources */,
+				A3EAA9B8229E76DD0022B817 /* CSRUtilities.m in Sources */,
+				A3EAA99E229E76DD0022B817 /* CBPeripheral+Info.m in Sources */,
+				A3EAA9F9229E77010022B817 /* PowerCuts.swift in Sources */,
+				A3EAA9F6229E77010022B817 /* Device.swift in Sources */,
+				A3EAA9A5229E76DD0022B817 /* CSRDatabaseManager.m in Sources */,
+				A3EAA9B9229E76DD0022B817 /* CSRWatchManager.m in Sources */,
+				A3EAAA32229E78890022B817 /* PlaceDataHelper.swift in Sources */,
+				A3EAAA03229E77010022B817 /* PhassPhraseUtil.swift in Sources */,
+				A3EAAA16229E77010022B817 /* BLEManager.swift in Sources */,
+				A3EAAA18229E77010022B817 /* Helper.swift in Sources */,
+				A3EAAA23229E77010022B817 /* SwitchCameraButton.swift in Sources */,
+				A3EAA9A9229E76DD0022B817 /* CSRDevicesManager.m in Sources */,
+				A3EAA940229E76A10022B817 /* AppDelegate.swift in Sources */,
+				A3EAAA20229E77010022B817 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				A3EAAA1A229E77010022B817 /* ProgressView.swift in Sources */,
+				A3EAA9A3229E76DD0022B817 /* CSRControllerEntity+CoreDataProperties.m in Sources */,
+				A3EAA9B7229E76DD0022B817 /* CSRUserEntity.m in Sources */,
+				A3EAAA05229E77010022B817 /* BridgeStatus.swift in Sources */,
+				A3EAAA2E229E78890022B817 /* CacheManager.swift in Sources */,
+				A3EAA9F5229E77010022B817 /* CSRDeviceEntity.swift in Sources */,
+				A3EAA9F8229E77010022B817 /* Parser.swift in Sources */,
+				A3EAA9A8229E76DD0022B817 /* CSRDeviceEventsEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EAA94C229E76A20022B817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAA955229E76A20022B817 /* helloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3EAA952229E76A20022B817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EAA93B229E76A10022B817 /* hello */;
+			targetProxy = A3EAA951229E76A20022B817 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3EAA943229E76A10022B817 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EAA944229E76A10022B817 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3EAA948229E76A10022B817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EAA949229E76A10022B817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3EAA957229E76A20022B817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3EAA958229E76A20022B817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EAA95A229E76A20022B817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74073CA7360EFEEF6D09D99E /* Pods-hello.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hello/SupportingFiles/Frameworks",
+				);
+				INFOPLIST_FILE = hello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Luminous.hello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello/hello-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3EAA95B229E76A20022B817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0DAB25E2AA7F755B27E405 /* Pods-hello.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hello/SupportingFiles/Frameworks",
+				);
+				INFOPLIST_FILE = hello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Luminous.hello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello/hello-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3EAA95D229E76A20022B817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = helloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Luminous.helloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hello;
+			};
+			name = Debug;
+		};
+		A3EAA95E229E76A20022B817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = helloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Luminous.helloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3EAA937229E76A10022B817 /* Build configuration list for PBXProject "hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EAA957229E76A20022B817 /* Debug */,
+				A3EAA958229E76A20022B817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EAA959229E76A20022B817 /* Build configuration list for PBXNativeTarget "hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EAA95A229E76A20022B817 /* Debug */,
+				A3EAA95B229E76A20022B817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EAA95C229E76A20022B817 /* Build configuration list for PBXNativeTarget "helloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EAA95D229E76A20022B817 /* Debug */,
+				A3EAA95E229E76A20022B817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3EAA984229E76DC0022B817 /* CSRmesh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3EAA985229E76DC0022B817 /* CSRmesh.xcdatamodel */,
+			);
+			currentVersion = A3EAA985229E76DC0022B817 /* CSRmesh.xcdatamodel */;
+			path = CSRmesh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3EAA934229E76A10022B817 /* Project object */;
+}

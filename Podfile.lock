@@ -1,0 +1,117 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
+  - DropDown (2.3.13)
+  - EVReflection/Alamofire (5.10.1):
+    - Alamofire
+    - EVReflection/Core
+  - EVReflection/Core (5.10.1)
+  - EVReflection/Moya (5.10.1):
+    - EVReflection/Alamofire
+    - Moya
+  - EVReflection/MoyaRxSwift (5.10.1):
+    - EVReflection/Moya
+    - Moya/RxSwift
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - OpenSSL-Universal (1.0.2.17)
+  - PhoneNumberKit (2.6.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.6.0)
+    - PhoneNumberKit/UIKit (= 2.6.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.6.0)
+  - PhoneNumberKit/UIKit (2.6.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - REFrostedViewController (2.4.8)
+  - Result (4.1.0)
+  - RxSwift (4.5.0)
+  - SQLite.swift/standalone (0.11.6):
+    - sqlite3
+  - sqlite3 (3.28.0):
+    - sqlite3/common (= 3.28.0)
+  - sqlite3/common (3.28.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.0.0)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.3)
+  - DropDown
+  - EVReflection/MoyaRxSwift
+  - NVActivityIndicatorView
+  - OpenSSL-Universal
+  - PhoneNumberKit (~> 2.5)
+  - REFrostedViewController
+  - SQLite.swift/standalone (~> 0.11.5)
+  - SVProgressHUD
+  - SwiftyJSON (~> 4.0.0)
+  - ZipArchive
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - DropDown
+    - EVReflection
+    - Moya
+    - NVActivityIndicatorView
+    - OpenSSL-Universal
+    - PhoneNumberKit
+    - REFrostedViewController
+    - Result
+    - RxSwift
+    - SQLite.swift
+    - sqlite3
+    - SVProgressHUD
+    - SwiftyJSON
+    - ZipArchive
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  OpenSSL-Universal: ff04c2e6befc3f1247ae039e60c93f76345b3b5a
+  PhoneNumberKit: 167ee1f0bbb6efce7c62559e620eae745595532f
+  REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SQLite.swift: 46d890be8601964454bd3392527f863d1b802d45
+  sqlite3: 52491522eeafb647cc13be0b97f91657be276bf6
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: 7e9d4e76eb3e52a64411f0a18098c66584a80b3c
+
+COCOAPODS: 1.6.1
